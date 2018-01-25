@@ -7,8 +7,12 @@ Learning from [OpenCV's python tutorials](https://docs.opencv.org/3.3.0/d6/d00/t
 ## Motion Detector
 `motion_detection.py` using thresholding and absolute differences against a weighted average frame to detect and outline motion in a video feed.
 
+![alt text](https://github.com/navidmia/cv-examples/raw/master/screenshots/motion_detector_example.gif)
+
 ## Red Color Detector
 `red_color_detection.py` makes simple use of OpenCV's inRange to detect the color red in a video feed and outline the area.
+
+<img src="https://github.com/navidmia/cv-examples/raw/master/screenshots/red_detector_example.png" width="300">
 
 ## Camera Module Validation Scripts
 `test_photo.py` and `test_video.py` are simple scripts to check if the camera module on the raspberry pi is functioning. `test_photo.py` takes a photo and `test_video.py` records a video feed.
